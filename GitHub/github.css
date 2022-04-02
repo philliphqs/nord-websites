@@ -1,0 +1,119 @@
+:root {
+	--dark5: #22262f;
+	--dark4: #2e3440;
+	--dark3: #333946;
+	--dark2: #323846;
+	--dark1: #4c566a;
+
+	--white3: #d8dee9;
+	--white2: #e5e9f0;
+	--white1: #eceff4;
+	
+	--red: #bf616a;
+	--orange: #d08770;
+	--yellow: #ebcb8b;
+	--green: #a3be8c;
+	--purple: #b48ead;
+}
+
+/* Navbar */
+.Header {
+	background-color: var(--dark5)
+}
+
+/* Sidebar & widgets */
+.color-bg-default {
+	background-color: var(--dark4) !important
+}
+
+/* Main */
+.color-bg-inset {
+	background-color: var(--dark3) !important
+}
+
+/* body */
+body {
+	background-color: var(--dark4)
+}
+
+/* Footer */
+
+
+/* Box */
+.Box {
+	background-color: var(--dark4);
+	border-color: var(--dark5)
+}
+
+/* Navbar Searchbar */
+.header-search-wrapper {
+	background-color: var(--dark5) !important
+}
+.jump-to-field-active {
+	background-color: var(--dark5) !important
+}
+
+
+/* General Searchbars */
+.input-contrast, .form-control, .form-select, .form-group .form-control {
+	background-color: var(--dark5)
+}
+
+/* Green Button */
+.btn-primary{
+	background-color: var(--green)
+}
+.btn-primary:hover{
+	background-color: var(--green)
+}
+
+/* Button */
+.btn {
+	background-color: var(--dark1)
+}
+.btn:hover {
+	background-color: var(--dark2) !important
+}
+
+/* Menu */
+.SelectMenu-list, .dropdown-menu, .SelectMenu-modal, .menu {
+	background-color: var(--dark5)
+}
+.menu-item.selected {
+	background-color: var(--dark2) !important
+}
+
+
+/* Userbadge */
+.user-status-circle-badge {
+	background-color: var(--dark5)
+}
+
+/* Header */
+.Box-header {
+	background-color: var(--dark5)
+}
+#repository-container-header {
+	background-color: var(--dark5) !important
+}
+
+
+/* Codeeditor */
+.file-header {
+	background-color: var(--dark5)
+}
+.cm-s-github-light.CodeMirror, .CodeMirror-scroll, .CodeMirror-sizer, .CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .cm-s-github-light .CodeMirror-lines, .btn-link  {
+	background-color: var(--dark5) !important
+}
+
+
+
+.Box-row--focus-gray.navigation-focus {
+	background-color: var(--dark5)
+}
+.UnderlineNav-item.selected, .UnderlineNav-item[role="tab"][aria-selected="true"], .UnderlineNav-item[aria-current]:not([aria-current="false"]) {
+	border-bottom-color: var(--orange)
+}
+.cm-s-github-light.CodeMirror, .CodeMirror-scroll, .CodeMirror-sizer, .CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .cm-s-github-light .CodeMirror-lines, .btn-link {
+	background-color: var(--dark4) !important
+}
